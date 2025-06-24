@@ -1,0 +1,46 @@
+nav {
+  background-color: rgb(35, 110, 82);
+}
+ul {
+  list-style-type: none;
+}
+li {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+div {
+  background-color: aquamarine;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    display: inline-block;
+}
+/* ID, ESPECIFICAR */
+#caixa-roxa {
+  background-color: blueviolet;
+  color: rgb(15, 16, 17);
+  width: 200px;
+  height: 300px;
+  margin: 20px 0px;
+}
+#caixa-verde{
+  background-color: rgb(3, 172, 3);
+  color: rgb(15, 16, 17);
+  width: 1200px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 20px;
+}
+/* ESTIIZAR classe */
+.mini-caixa{
+    background-color: rgb(38, 36, 155);
+    font-size: 35px;
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  /* Deixar as coisas na mesma linha */
+  display: inline-block;
+}
