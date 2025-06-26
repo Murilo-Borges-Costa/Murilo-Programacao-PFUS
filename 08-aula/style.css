@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+
+
+body{
+    background-color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h1{
+    text-shadow: 5px 5px red;
+}
+p{
+    background-color: aqua;
+    color: rgb(52, 63, 63);
+}
+#direita{
+    text-align: right;
+}
+#esquerda{
+    text-align: left;
+}
+#centro{
+    text-align: center;
+}
+#justificado{
+    text-align: justify;
+}
+#minusculo{
+    text-transform: lowercase;
+}
+#maiusculo{
+    text-transform: uppercase;
+}
+#CAPITAL{
+    text-transform: capitalize;
+}
+h2{
+    /* tamanho */
+    font-size: 80px;
+    /* grosso e fino */
+    font-weight: 400;
+    /* Sombra no texto */
+    text-shadow: 5px 5px red;
+}
+#decorado{
+    /* linha embaixo do texto */
+    text-decoration: underline red;
+}
+footer{
+    text-align: center;
+}
+#outrafonte{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#fontegoogle{
+    font-family:"Oi", serif;
+}
+@font-face {
+    font-family: 'UoqMunThenKhung';
+    src: url("./Fonte/UoqMunThenKhung-Regular.ttf");
+}
+#font2{
+    font-family:'UoqMunThenKhung';
+    font-size: 50px;
+}
