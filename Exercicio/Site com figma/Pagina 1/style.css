@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Orbitron:wght@400..900&family=UoqMunThenKhung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Orbitron:wght@400..900&family=Recursive:wght@300..1000&family=UoqMunThenKhung&display=swap');
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    color: white;
+    font-size:80px;
+    margin: 100px;
+    height: 100px;
+    text-align:center;
+    font-family:Orbitron;
+    
+}
+#logo{
+    text-align: center;
+    background-position: center;
+    width: 50%;
+    height: 262px;
+}
+#logo-img{
+    /* tamanho */
+width: 100px;
+height: 100px;
+background-position: center;
+margin: auto;
+}
+#caixa-verde{
+  width: 12px;
+  height: 30px;
+  margin: 20px auto;
+  /* Margem estra */
+  padding: 20px;
+}
+/* ESTIIZAR classe */
+.mini-caixa{
+    font-size: 35px;
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  /* Deixar as coisas na mesma linha */
+  display: inline-block;
+}
+#inicio{
+     font-family:Orbitron;
+     color: white;
+     display: inline-block;
+     text-align:end;
+     display: inline
+}
+/* Cabeçario */
+h3{
+    color: #00FF00;
+    font-family: Recursive;
+}
+#um{
+    color: #54CD54;
+}
+#t{
+    color: rgb(255, 255, 255);
+}
+#dois{
+    color: #54CD54;
+}
+#t2{
+    color: rgb(255, 255, 255);
+}
+#video{
+    background-image: url("https://media1.tenor.com/images/9b653efc32230259dc6d8fe95a97b83c/tenor.gif?itemid=12443085");
+    width: 70%;
+    height: 250px;
+      background-repeat: no-repeat;
+      margin:auto;
+      background-position:right;
+}
+#pag{
+    color: #00FF00;
+    background-position:right;
+    text-align: right;
+}
