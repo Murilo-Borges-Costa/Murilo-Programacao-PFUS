@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(153, 243, 247);
+}
+#navegacao{
+    width: 80%;
+    background-color: brown;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    color: rgb(0, 247, 255);
+    font-size: 30px;
+    overflow: auto;
+}
+.simbolo{
+    color:rgb(0, 174, 255);
+    font-weight: 900px;
+    font-size: 20px;
+}
+#item-menu{
+    list-style: none;
+    float: right
+}
+li{
+    display: inline-block;
+    margin-left: 15px;
+    padding: 5px;
+}
+li:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 15px;
+    transform: scaleX(1.2);
+    transform: scaleY(1.2);
+}
+#logo{
+    float: left;
+    
+}
