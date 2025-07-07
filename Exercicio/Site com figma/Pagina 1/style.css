@@ -10,7 +10,21 @@ h1{
     height: 100px;
     text-align:center;
     font-family:Orbitron;
-    
+}
+li{
+    display: inline-block;
+    margin-left: 15px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    margin-right: auto;
+}
+li:hover{
+    color: #00FF00;
+    background-color: rgb(34, 110, 27);
+    cursor: pointer;
+    border-radius: 15px;
+    transform: scaleX(1.2);
+    transform: scaleY(1.2);
 }
 #logo{
     text-align: center;
@@ -77,4 +91,25 @@ h3{
     color: #00FF00;
     background-position:right;
     text-align: right;
+}
+table{
+    color: #00FF00;
+}
+#um1{
+    color: #54CD54;
+    text-align:left;
+}
+.perg1{
+    color: rgb(255, 255, 255);
+    text-align:left;
+}
+h6{
+    font-size: 15px;
+}
+h7{
+     font-size: 15px;
+}
+#um11{
+    color: #54CD54;
+    text-align:left;
 }

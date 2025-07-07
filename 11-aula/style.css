@@ -5,6 +5,10 @@
 body{
     background-color: rgb(153, 243, 247);
 }
+header{
+    position: sticky;
+    top: 0px;
+}
 #navegacao{
     width: 80%;
     background-color: brown;
@@ -14,6 +18,8 @@ body{
     color: rgb(0, 247, 255);
     font-size: 30px;
     overflow: auto;
+    position: sticky;
+    top: 0px;
 }
 .simbolo{
     color:rgb(0, 174, 255);
@@ -74,6 +80,21 @@ main{
     height: 200px;
     line-height: 200px;
 }
+#linha{
+    background-color: rgb(127, 255, 238);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.mini-linha{
+    background-color: rgb(36, 68, 66);
+    margin-top: 5px;
+    height: 200px;
+    line-height: 200px;
+    width: 50%;
+    display: inline;
+}
 /* Altera o estilo de acordo com o aparelho */
 @media screen and (max-width: 900px){
     body{
@@ -124,5 +145,17 @@ main{
         margin-left: auto;
         margin-right: auto;
         font-size: 25px;
+    }
+    main{
+        width: 100%;
+        padding: 0px;
+    }
+    .mini-bloco{
+        width: 80%;
+        font-size: 20px;
+    }
+    .mini-linha{
+        font-size: 20px;
+        line-height: 100px;
     }
 }
