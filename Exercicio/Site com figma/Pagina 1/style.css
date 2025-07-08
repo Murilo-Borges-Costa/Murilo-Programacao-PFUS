@@ -94,6 +94,7 @@ h3{
 }
 table{
     color: #00FF00;
+    border: #ffffff;
 }
 #um1{
     color: #54CD54;
@@ -112,4 +113,8 @@ h7{
 #um11{
     color: #54CD54;
     text-align:left;
+}
+.perg11{
+    color: rgb(255, 255, 255);
+     text-align:left;
 }
