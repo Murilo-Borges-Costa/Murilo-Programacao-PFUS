@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oi&family=Orbitron:wght@400..900&family=UoqMunThenKhung&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oi&family=Orbitron:wght@400..900&family=Recursive:wght@300..1000&family=UoqMunThenKhung&display=swap');
+
 body{
     background-color: rgb(0, 0, 0);
 }
@@ -95,6 +96,7 @@ h3{
 table{
     color: #00FF00;
     border: #ffffff;
+   
 }
 #um1{
     color: #54CD54;
@@ -106,6 +108,7 @@ table{
 }
 h6{
     font-size: 15px;
+    color: #00FF00;
 }
 h7{
      font-size: 15px;
@@ -117,4 +120,87 @@ h7{
 .perg11{
     color: rgb(255, 255, 255);
      text-align:left;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+p{
+    color: #ffffff;
+    font-family: Recursive;
+    text-align:left;
+}
+h5{
+    color: #00FF00;
+    font-family: Recursive;
+}
+h4{
+    color: #00FF00;
+    font-family: Recursive;
+    text-align: end;
+}
+#block{
+    background-color: rgb(218, 214, 22);
+}
+#quad1{
+    background-color: rgb(32, 141, 141);
+     flex-shrink: 1;
+     width: 50%;
+     height: 200px;
+}
+#quad2{
+    background-color: blueviolet;
+    flex-grow: 1;
+    width: 50%;
+    height: 100%;
+}
+.quad{
+    width: 200px;
+    height: 200px;
+    /* Line-height deixa no centro verticalmente */
+    line-height: 200px;
+    /* display: inline-block; */
+}
+#inline-block{
+    background-color: aquamarine;
+    display: inline-block;
+    width: 100%;
+}
+#flex{
+    background-color: rgb(0, 132, 255);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* min-height: 100%; */
+    padding: 5px;
+    /* flex-wrap: wrap; */
+    /* Espaço entre os itens da tabela */
+    gap: 20px;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+}
+.p1{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.resultado{
+    color: #54CD54;
+}
+h2{
+    color: #00FF00;
+     font-size: 15px;
+}
+#pai{
+    display: flex;
+    width: 100%;
+    
+}
+#pergunta1{
+    width: 50%;
+}
+#pergunta2{
+    width: 50%;
 }
